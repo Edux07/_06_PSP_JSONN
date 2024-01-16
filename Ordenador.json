@@ -1,16 +1,75 @@
 {
-    "Ordenador": {
+    "Ordenador":{
         "nombre": "Flameador 2004",
         "precio": "1900",
-        "Periferico": {
-            "Teclado": {
-                "marca": "Flamer gaming SL",
-                "nombre": "Flaming pro eco 2"
+        "Perifericos":{
+            "Teclado":{
+                "marca":"Flamer gaming SL",
+                "nombre":"Flaming pro eco 2"
             },
-            "Raton": {
-                "nombre": "Insultating pro 1",
+            "Raton":{
+                "nombre":"Insultating pro 1",
                 "marca": "Flamer gaming SL"
             }
+        },
+        "componentes":{
+            "monitor":{
+                "nombre":"4K feeder pro-max",
+                "marca":"Rager",
+                "resolucion":"2160p"
+            },
+        "placa_base":{
+            "modelo":"B470",
+            "marca":"iAmanboob",
+            "slots_ram":4
+        },
+        "ram":[
+            {
+                "id":1,
+                "marca":"Flaming",
+                "tipo":"DDR4",
+                "capacidad":"8GB"
+            },
+            {
+                "id":2,
+                "marca":"Flaming",
+                "tipo":"DDR4",
+                "capacidad":"8GB"
+            }
+        ],
+        "procesador":{
+            "marca":"manker",
+            "modelo":"i9.5",
+            "velocidad":"5Ghz"
+        },
+        "discos_duro":[
+            {
+                "id":1,
+                "marca":"manker",
+                "tipo":"HDD",
+                "capacidad":"2TB"
+            },
+            {
+                "id":2,
+                "marca":"Rager",
+                "tipo":"SSD",
+                "capacidad":"500GB"
+            }
+        ],
+        "fuente de alimentacion":{
+            "marca":"manker",
+            "modelo":"ATX",
+            "potencia":{
+            "valor":750,
+            "unidad":"KW"
+            }
+        },
+        "tarjeta_Grafica":{
+            "marca":"iAmanboob",
+            "modelo":"4080",
+            "precio":"2 bitcoin",
+            "potencia":"Trillon cuadras"
+        }
         }
     }
 }
