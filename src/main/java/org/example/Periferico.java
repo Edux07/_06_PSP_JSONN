@@ -22,11 +22,20 @@ public class Periferico {
         this.teclado = teclado;
     }
 
+
     public Raton getRaton() {
         return raton;
     }
 
     public void setRaton(Raton raton) {
         this.raton = raton;
+    }
+
+    @Override
+    public String toString() {
+        return "Periferico{" +
+                "teclado=" + teclado +
+                ", raton=" + raton +
+                '}';
     }
 }

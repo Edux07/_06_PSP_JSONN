@@ -25,7 +25,9 @@ public class JSON_MAIN {
             Gson gson = new Gson();
             
             Ordenador o1 = new Ordenador();
+
             o1 = gson.fromJson(json, Ordenador.class);
+
             
             //Ordenador ordenador = gson.fromJson(json, null);
 
