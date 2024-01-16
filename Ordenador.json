@@ -1,0 +1,16 @@
+{
+    "Ordenador": {
+        "nombre": "Flameador 2004",
+        "precio": "1900",
+        "Periferico": {
+            "Teclado": {
+                "marca": "Flamer gaming SL",
+                "nombre": "Flaming pro eco 2"
+            },
+            "Raton": {
+                "nombre": "Insultating pro 1",
+                "marca": "Flamer gaming SL"
+            }
+        }
+    }
+}
