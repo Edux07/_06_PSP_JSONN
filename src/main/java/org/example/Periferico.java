@@ -1,41 +1,42 @@
 package org.example;
 
 public class Periferico {
-    private Teclado teclado;
-    private Raton raton;
+    private String nombre;
+    private String marca;
 
     public Periferico() {
     }
 
-    public Periferico(Teclado teclado, Raton raton) {
-        this.teclado = teclado;
-        this.raton = raton;
+    public Periferico(String nombre, String marca) {
+        this.nombre = nombre;
+        this.marca = marca;
     }
 
     // Getters y setters
 
-    public Teclado getTeclado() {
-        return teclado;
+    public String getNombre() {
+        return nombre;
     }
 
-    public void setTeclado(Teclado teclado) {
-        this.teclado = teclado;
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
     }
 
-
-    public Raton getRaton() {
-        return raton;
+    public String getMarca() {
+        return marca;
     }
 
-    public void setRaton(Raton raton) {
-        this.raton = raton;
+    public void setMarca(String marca) {
+        this.marca = marca;
     }
 
     @Override
     public String toString() {
-        return "Periferico{" +
-                "teclado=" + teclado +
-                ", raton=" + raton +
+        return "Teclado{" +
+                "nombre='" + nombre + '\'' +
+                ", marca='" + marca + '\'' +
                 '}';
     }
+
+
 }

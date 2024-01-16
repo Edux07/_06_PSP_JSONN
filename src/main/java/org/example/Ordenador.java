@@ -1,20 +1,27 @@
 package org.example;
 
+import java.util.List;
+
 public class Ordenador {
 	    private String nombre;
 	    private int precio;
 	    private Periferico perifericos;
+		private List<Periferico>listaPerifericos;
+		private List<Componente>listaComponentes;
 
 
-	    public Ordenador() {
+
+
+	public Ordenador() {
 	    	super();
 	    }
 
-	    public Ordenador(String nombre, int precio, Periferico perifericos ) {
+	    public Ordenador(String nombre, int precio, Periferico perifericos, List<Periferico> listaPerifericos, List<Componente> listaComponentes ) {
 	        this.nombre = nombre;
 	        this.precio = precio;
 	        this.perifericos = perifericos;
-
+			this.listaPerifericos = listaPerifericos;
+			this.listaComponentes = listaComponentes;
 
 	    }
 
@@ -43,7 +50,21 @@ public class Ordenador {
 	    public void setPerifericos(Periferico perifericos) {
 	        this.perifericos = perifericos;
 	    }
+		public List<Periferico> getListaPerifericos() {
+		return listaPerifericos;
+	}
 
+		public void setListaPerifericos(List<Periferico> listaPerifericos) {
+		this.listaPerifericos = listaPerifericos;
+	}
+
+		public List<Componente> getListaComponentes() {
+		return listaComponentes;
+	}
+
+		public void setListaComponentes(List<Componente> listaComponentes) {
+		this.listaComponentes = listaComponentes;
+	}
 		@Override
 		public String toString() {
 			return "Ordenador{" +
